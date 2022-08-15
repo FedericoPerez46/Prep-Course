@@ -77,7 +77,7 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   var cantidad = str1.lenght;
   var cantidad2 = str2.lenght;
-  if (cantidad == cantidad2) {
+  if (cantidad === cantidad2) {
   return true;  
   } else {
   return false;  
